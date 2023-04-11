@@ -70,8 +70,8 @@ internal final class DropView: UIView {
     }
 
     if badge.icon == nil, badge.action?.icon == nil {
-      insets.left = 30
-      insets.right = 30
+      insets.left = 20
+      insets.right = 20
     }
 
     constraints += [
